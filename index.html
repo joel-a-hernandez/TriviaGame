@@ -11,29 +11,54 @@
 
 </head>
 <body>
-    <h1>Trivia Game</h1>
+        <div class="jumbotron">
+                <h1 class="display-4">Sports Trivia</h1>
+              </div>
 
-    <div class="timeRemaining"></div>
 
-    <div id="countdown"></div>
+<!-- Grid starts -->
+<div class="container">
+    <div class="row row-1">
+        <div class="col-md-12"><div id="countdown"></div></div>
+    </div>  
 
-    <div id="question"></div>
+    <!-- question-wrapper -->
+ <div class="question-wrapper">
+    <div class="row row-2">
+        <div class="col-md-12"> <div id="question"></div></div>
+    </div> 
 
-    <div id="answerChoices">
-        <button type="radio" id="buttonOne"></button>
-        <br/>
-        <button type="radio" id="buttonTwo"></button>
-        <br/>
-        <button type="radio" id="buttonThree"></button>
-        <br/>
-        <button type="radio" id="buttonFour"></button>
+    <div class="row row-3">
+        <div class="col-md-12">
+            <div id="answerChoices">
+                <button id="buttonOne" class="butn wrong-answer"></button>
+                <br/>
+                <button id="buttonTwo" class="butn wrong-answer"></button>
+                <br/>
+                <button id="buttonThree" class="butn correct-answer"></button>
+                <br/>
+                <button id="buttonFour" class="butn wrong-answer"></button>
+            </div>
+        </div>
     </div>
+<!-- /question-wrapper -->
+ </div>
+    <div class="row row-4">
+        <div class="col-md-6">
+            <div id="correct-answer"></div>
+        </div>
+        <div class="col-md-6">
+            <div id="wrong-answer"></div>
+        </div>
+    </div>  
 
-    <div id="correctAnswer"></div>
-
-    <div class="button"><button id="startButton">Start</button></div>
-
+    <div class="row row-5">
+        <div class="col-md-12">
+            <div class="button"><button id="startButton">Start</button></div> 
+        </div>
+    </div>
     
+</div>
 
 
 <script type="text/javascript" src="assets/javascript/app.js"></script>

@@ -1,0 +1,38 @@
+body {
+    background: lightcoral;
+}
+
+.question-wrapper {
+    display: none;
+}
+.display-4 {
+    text-align: center;
+}
+
+.row-1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.row-2 {
+    text-align: center;
+}
+
+.row-3 {
+    text-align: center;
+}
+
+.row-4 {
+    text-align: center;
+}
+.row-5 {
+    text-align: center;
+}
+
+.butn {
+    background: transparent;
+    border: none;
+} 
+*:focus {
+    outline: 0 !important;
+}
